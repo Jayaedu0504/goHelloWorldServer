@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jayaedu0504_goHelloWorldServer_1702734232536-pr-trigger-input-set
+  identifier: Build_Jayaedu0504_goHelloWorldServer_1702734232536prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jayaeduapp
+  pipeline:
+    identifier: Build_Jayaedu0504_goHelloWorldServer_1702734232536
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
